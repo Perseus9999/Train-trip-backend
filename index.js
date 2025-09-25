@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 8080;
 const DISTRIBUSION_API_KEY = process.env.DISTRIBUSION_API_KEY || ""
 // Allow requests from your Next.js frontend
 app.use(cors({
-  origin: "http://localhost:3000",   // your frontend origin
+  origin: "https://train-trip-website.vercel.app",   // your frontend origin
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type", "Api-Key"],
   headers: ["Content-Type", "application/json"]
