@@ -1,0 +1,2117 @@
+{
+  "data": [
+    {
+      "attributes": {
+        "arrival_time": "2024-09-12T08:00",
+        "booked_out": false,
+        "cheapest_fare_class_code": "FARE-15",
+        "cheapest_total_adult_price": 2351,
+        "departure_time": "2024-09-11T19:15",
+        "duration": 45900,
+        "electronic_ticket_available": false,
+        "leg_type": "outbound",
+        "offer_bundle": null,
+        "offer_id": null,
+        "total_seats_left": 50
+      },
+      "id": "RJET-DEBERCBS-CZPRGZOB-2024-09-11T19:00-2024-09-11T23:30",
+      "relationships": {
+        "arrival_station": {
+          "data": {
+            "id": "CZPRGATE",
+            "type": "stations"
+          }
+        },
+        "departure_station": {
+          "data": {
+            "id": "DEBERSDE",
+            "type": "stations"
+          }
+        },
+        "fares": {
+          "data": [
+            {
+              "fare_class": {
+                "code": "FARE-15",
+                "id": "RJET-FARE-15",
+                "type": "fare_classes"
+              },
+              "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-FARE-15",
+              "original_price": 2351,
+              "price": 2351,
+              "type": "fares"
+            },
+            {
+              "fare_class": {
+                "code": "FARE-1",
+                "id": "RJET-FARE-1",
+                "type": "fare_classes"
+              },
+              "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-FARE-1",
+              "original_price": 2351,
+              "price": 2351,
+              "type": "fares"
+            },
+            {
+              "fare_class": {
+                "code": "FARE-14",
+                "id": "RJET-FARE-14",
+                "type": "fare_classes"
+              },
+              "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-FARE-14",
+              "original_price": 2710,
+              "price": 2710,
+              "type": "fares"
+            }
+          ]
+        },
+        "marketing_carrier": {
+          "data": {
+            "id": "RJET",
+            "type": "marketing_carriers"
+          }
+        },
+        "segments": {
+          "data": [
+            {
+              "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-0",
+              "type": "segments"
+            },
+            {
+              "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-1",
+              "type": "segments"
+            }
+          ]
+        }
+      },
+      "type": "connections"
+    },
+    {
+      "attributes": {
+        "arrival_time": "2024-09-11T23:30",
+        "booked_out": false,
+        "cheapest_fare_class_code": "FARE-15",
+        "cheapest_total_adult_price": 2151,
+        "departure_time": "2024-09-11T19:15",
+        "duration": 15300,
+        "electronic_ticket_available": false,
+        "leg_type": "outbound",
+        "offer_bundle": null,
+        "offer_id": null,
+        "total_seats_left": 46
+      },
+      "id": "RJET-DEBERSDE-CZPRGZOB-2024-09-11T19:15-2024-09-11T23:30",
+      "relationships": {
+        "arrival_station": {
+          "data": {
+            "id": "CZPRGZOB",
+            "type": "stations"
+          }
+        },
+        "departure_station": {
+          "data": {
+            "id": "DEBERSDE",
+            "type": "stations"
+          }
+        },
+        "fares": {
+          "data": [
+            {
+              "fare_class": {
+                "code": "FARE-15",
+                "id": "RJET-FARE-15",
+                "type": "fare_classes"
+              },
+              "id": "RJET-DEBERSDE-CZPRGZOB-2024-09-11T19:15-2024-09-11T23:30-FARE-15",
+              "original_price": 2151,
+              "price": 2151,
+              "type": "fares"
+            },
+            {
+              "fare_class": {
+                "code": "FARE-14",
+                "id": "RJET-FARE-14",
+                "type": "fare_classes"
+              },
+              "id": "RJET-DEBERSDE-CZPRGZOB-2024-09-11T19:15-2024-09-11T23:30-FARE-14",
+              "original_price": 2590,
+              "price": 2590,
+              "type": "fares"
+            }
+          ]
+        },
+        "marketing_carrier": {
+          "data": {
+            "id": "RJET",
+            "type": "marketing_carriers"
+          }
+        },
+        "segments": {
+          "data": [
+            {
+              "id": "RJET-DEBERSDE-CZPRGZOB-2024-09-11T19:15-2024-09-11T23:30-0",
+              "type": "segments"
+            }
+          ]
+        }
+      },
+      "type": "connections"
+    },
+    {
+      "attributes": {
+        "arrival_time": "2024-09-12T08:00",
+        "booked_out": false,
+        "cheapest_fare_class_code": "FARE-15",
+        "cheapest_total_adult_price": 2351,
+        "departure_time": "2024-09-11T19:15",
+        "duration": 45900,
+        "electronic_ticket_available": false,
+        "leg_type": "outbound",
+        "offer_bundle": null,
+        "offer_id": null,
+        "total_seats_left": 50
+      },
+      "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00",
+      "relationships": {
+        "arrival_station": {
+          "data": {
+            "id": "CZPRGATE",
+            "type": "stations"
+          }
+        },
+        "departure_station": {
+          "data": {
+            "id": "DEBERSDE",
+            "type": "stations"
+          }
+        },
+        "fares": {
+          "data": [
+            {
+              "fare_class": {
+                "code": "FARE-15",
+                "id": "RJET-FARE-15",
+                "type": "fare_classes"
+              },
+              "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-FARE-15",
+              "original_price": 2351,
+              "price": 2351,
+              "type": "fares"
+            },
+            {
+              "fare_class": {
+                "code": "FARE-1",
+                "id": "RJET-FARE-1",
+                "type": "fare_classes"
+              },
+              "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-FARE-1",
+              "original_price": 2351,
+              "price": 2351,
+              "type": "fares"
+            },
+            {
+              "fare_class": {
+                "code": "FARE-14",
+                "id": "RJET-FARE-14",
+                "type": "fare_classes"
+              },
+              "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-FARE-14",
+              "original_price": 2710,
+              "price": 2710,
+              "type": "fares"
+            }
+          ]
+        },
+        "marketing_carrier": {
+          "data": {
+            "id": "RJET",
+            "type": "marketing_carriers"
+          }
+        },
+        "segments": {
+          "data": [
+            {
+              "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-0",
+              "type": "segments"
+            },
+            {
+              "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-1",
+              "type": "segments"
+            }
+          ]
+        }
+      },
+      "type": "connections"
+    }
+  ],
+  "included": [
+    {
+      "attributes": {
+        "arrival_time": "2024-09-12T08:00",
+        "departure_time": "2024-09-12T07:30",
+        "index": 1,
+        "line": "141103",
+        "code": "WOMO",
+        "booked_out": false,
+        "original_price": 2710,
+        "price": 2710,
+        "seats_left": 36,
+        "booking_fee": null,
+        "legal_name": "Student Agency k.s.",
+        "markup_fee_percentage": null,
+        "trade_name": "RegioJet",
+        "description": "Compartment or area exclusively for women",
+        "max_age": 99,
+        "min_age": null,
+        "name": "Women-only",
+        "latitude": 52.4764431,
+        "longitude": 13.36414330000002,
+        "street_and_number": "Hildegard-Knef-Platz",
+        "time_zone": "Europe/Berlin",
+        "zip_code": "10829",
+        "iata_category": null,
+        "journey_type": "single"
+      },
+      "id": "RJET-DEBERCBS-CZPRGZOB-2024-09-11T19:00-2024-09-11T23:30-0",
+      "relationships": {
+        "amenities": {
+          "data": []
+        },
+        "arrival_station": {
+          "data": {
+            "id": "CZPRGATE",
+            "type": "stations"
+          }
+        },
+        "departure_station": {
+          "data": {
+            "id": "CZPRGZOB",
+            "type": "stations"
+          }
+        },
+        "fares": {
+          "data": []
+        },
+        "marketing_carrier": {
+          "data": {
+            "id": "RJET",
+            "type": "marketing_carriers"
+          }
+        },
+        "operating_carrier": {
+          "data": {
+            "id": "RJET",
+            "type": "operating_carriers"
+          }
+        },
+        "vehicle": {
+          "data": {
+            "id": "BUS-RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-1",
+            "type": "vehicles"
+          }
+        },
+        "vehicle_type": {
+          "data": {
+            "id": "BUS",
+            "type": "vehicle_types"
+          }
+        },
+        "applied_cards": {
+          "data": []
+        },
+        "conditions": {
+          "data": []
+        },
+        "fare_class": {
+          "data": {
+            "id": "RJET-FARE-14",
+            "type": "fare_classes"
+          }
+        },
+        "extra_types": {
+          "data": []
+        },
+        "fare_classes": {
+          "data": [
+            {
+              "id": "RJET-FARE-1",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-10",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-11",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-12",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-13",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-14",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-15",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-2",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-3",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-4",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-6",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-7",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-8",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-9",
+              "type": "fare_classes"
+            }
+          ]
+        },
+        "passenger_types": {
+          "data": [
+            {
+              "id": "PNOS",
+              "type": "passenger_types"
+            }
+          ]
+        },
+        "area": {
+          "data": {
+            "id": "DEBERBI",
+            "type": "areas"
+          }
+        },
+        "city": {
+          "data": {
+            "id": "DEBER",
+            "type": "cities"
+          }
+        },
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-SNAC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ALSE",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-LTAB",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-QCOM",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-BEDF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "segments"
+    },
+    {
+      "id": "BUS-RJET-DEBERCBS-CZPRGZOB-2024-09-11T19:00-2024-09-11T23:30-0",
+      "relationships": {
+        "vehicle_type": {
+          "data": {
+            "id": "BUS",
+            "type": "vehicle_types"
+          }
+        }
+      },
+      "type": "vehicles"
+    },
+    {
+      "attributes": {
+        "code": "BUS"
+      },
+      "id": "BUS",
+      "type": "vehicle_types"
+    },
+    {
+      "attributes": {
+        "booked_out": false,
+        "original_price": 2151,
+        "price": 2151,
+        "seats_left": 12
+      },
+      "id": "RJET-DEBERCBS-CZPRGZOB-2024-09-11T19:00-2024-09-11T23:30-FARE-15",
+      "relationships": {
+        "applied_cards": {
+          "data": []
+        },
+        "conditions": {
+          "data": []
+        },
+        "fare_class": {
+          "data": {
+            "id": "RJET-FARE-15",
+            "type": "fare_classes"
+          }
+        }
+      },
+      "type": "fares"
+    },
+    {
+      "attributes": {
+        "booked_out": false,
+        "original_price": 2590,
+        "price": 2590,
+        "seats_left": 34
+      },
+      "id": "RJET-DEBERCBS-CZPRGZOB-2024-09-11T19:00-2024-09-11T23:30-FARE-14",
+      "relationships": {
+        "applied_cards": {
+          "data": []
+        },
+        "conditions": {
+          "data": []
+        },
+        "fare_class": {
+          "data": {
+            "id": "RJET-FARE-14",
+            "type": "fare_classes"
+          }
+        }
+      },
+      "type": "fares"
+    },
+    {
+      "attributes": {
+        "arrival_time": "2024-09-11T23:30",
+        "departure_time": "2024-09-11T19:15",
+        "index": null,
+        "line": "263"
+      },
+      "id": "RJET-DEBERSDE-CZPRGZOB-2024-09-11T19:15-2024-09-11T23:30-0",
+      "relationships": {
+        "amenities": {
+          "data": []
+        },
+        "arrival_station": {
+          "data": {
+            "id": "CZPRGZOB",
+            "type": "stations"
+          }
+        },
+        "departure_station": {
+          "data": {
+            "id": "DEBERSDE",
+            "type": "stations"
+          }
+        },
+        "fares": {
+          "data": []
+        },
+        "marketing_carrier": {
+          "data": {
+            "id": "RJET",
+            "type": "marketing_carriers"
+          }
+        },
+        "operating_carrier": {
+          "data": {
+            "id": "RJET",
+            "type": "operating_carriers"
+          }
+        },
+        "vehicle": {
+          "data": {
+            "id": "BUS-RJET-DEBERSDE-CZPRGZOB-2024-09-11T19:15-2024-09-11T23:30-0",
+            "type": "vehicles"
+          }
+        }
+      },
+      "type": "segments"
+    },
+    {
+      "id": "BUS-RJET-DEBERSDE-CZPRGZOB-2024-09-11T19:15-2024-09-11T23:30-0",
+      "relationships": {
+        "vehicle_type": {
+          "data": {
+            "id": "BUS",
+            "type": "vehicle_types"
+          }
+        }
+      },
+      "type": "vehicles"
+    },
+    {
+      "attributes": {
+        "booked_out": false,
+        "original_price": 2151,
+        "price": 2151,
+        "seats_left": 12
+      },
+      "id": "RJET-DEBERSDE-CZPRGZOB-2024-09-11T19:15-2024-09-11T23:30-FARE-15",
+      "relationships": {
+        "applied_cards": {
+          "data": []
+        },
+        "conditions": {
+          "data": []
+        },
+        "fare_class": {
+          "data": {
+            "id": "RJET-FARE-15",
+            "type": "fare_classes"
+          }
+        }
+      },
+      "type": "fares"
+    },
+    {
+      "attributes": {
+        "booked_out": false,
+        "original_price": 2590,
+        "price": 2590,
+        "seats_left": 34
+      },
+      "id": "RJET-DEBERSDE-CZPRGZOB-2024-09-11T19:15-2024-09-11T23:30-FARE-14",
+      "relationships": {
+        "applied_cards": {
+          "data": []
+        },
+        "conditions": {
+          "data": []
+        },
+        "fare_class": {
+          "data": {
+            "id": "RJET-FARE-14",
+            "type": "fare_classes"
+          }
+        }
+      },
+      "type": "fares"
+    },
+    {
+      "attributes": {
+        "arrival_time": "2024-09-11T23:30",
+        "departure_time": "2024-09-11T19:15",
+        "index": null,
+        "line": "263"
+      },
+      "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-0",
+      "relationships": {
+        "amenities": {
+          "data": []
+        },
+        "arrival_station": {
+          "data": {
+            "id": "CZPRGZOB",
+            "type": "stations"
+          }
+        },
+        "departure_station": {
+          "data": {
+            "id": "DEBERSDE",
+            "type": "stations"
+          }
+        },
+        "fares": {
+          "data": []
+        },
+        "marketing_carrier": {
+          "data": {
+            "id": "RJET",
+            "type": "marketing_carriers"
+          }
+        },
+        "operating_carrier": {
+          "data": {
+            "id": "RJET",
+            "type": "operating_carriers"
+          }
+        },
+        "vehicle": {
+          "data": {
+            "id": "BUS-RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-0",
+            "type": "vehicles"
+          }
+        }
+      },
+      "type": "segments"
+    },
+    {
+      "attributes": {
+        "arrival_time": "2024-09-12T08:00",
+        "departure_time": "2024-09-12T07:30",
+        "index": 1,
+        "line": "141103"
+      },
+      "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-1",
+      "relationships": {
+        "amenities": {
+          "data": []
+        },
+        "arrival_station": {
+          "data": {
+            "id": "CZPRGATE",
+            "type": "stations"
+          }
+        },
+        "departure_station": {
+          "data": {
+            "id": "CZPRGZOB",
+            "type": "stations"
+          }
+        },
+        "fares": {
+          "data": []
+        },
+        "marketing_carrier": {
+          "data": {
+            "id": "RJET",
+            "type": "marketing_carriers"
+          }
+        },
+        "operating_carrier": {
+          "data": {
+            "id": "RJET",
+            "type": "operating_carriers"
+          }
+        },
+        "vehicle": {
+          "data": {
+            "id": "BUS-RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-1",
+            "type": "vehicles"
+          }
+        }
+      },
+      "type": "segments"
+    },
+    {
+      "id": "BUS-RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-0",
+      "relationships": {
+        "vehicle_type": {
+          "data": {
+            "id": "BUS",
+            "type": "vehicle_types"
+          }
+        }
+      },
+      "type": "vehicles"
+    },
+    {
+      "id": "BUS-RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-1",
+      "relationships": {
+        "vehicle_type": {
+          "data": {
+            "id": "BUS",
+            "type": "vehicle_types"
+          }
+        }
+      },
+      "type": "vehicles"
+    },
+    {
+      "attributes": {
+        "booked_out": false,
+        "original_price": 2351,
+        "price": 2351,
+        "seats_left": 14
+      },
+      "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-FARE-15",
+      "relationships": {
+        "applied_cards": {
+          "data": []
+        },
+        "conditions": {
+          "data": []
+        },
+        "fare_class": {
+          "data": {
+            "id": "RJET-FARE-15",
+            "type": "fare_classes"
+          }
+        }
+      },
+      "type": "fares"
+    },
+    {
+      "attributes": {
+        "booked_out": false,
+        "original_price": 2351,
+        "price": 2351,
+        "seats_left": 50
+      },
+      "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-FARE-1",
+      "relationships": {
+        "applied_cards": {
+          "data": []
+        },
+        "conditions": {
+          "data": []
+        },
+        "fare_class": {
+          "data": {
+            "id": "RJET-FARE-1",
+            "type": "fare_classes"
+          }
+        }
+      },
+      "type": "fares"
+    },
+    {
+      "attributes": {
+        "booked_out": false,
+        "original_price": 2710,
+        "price": 2710,
+        "seats_left": 36
+      },
+      "id": "RJET-DEBERSDE-CZPRGATE-2024-09-11T19:15-2024-09-12T08:00-FARE-14",
+      "relationships": {
+        "applied_cards": {
+          "data": []
+        },
+        "conditions": {
+          "data": []
+        },
+        "fare_class": {
+          "data": {
+            "id": "RJET-FARE-14",
+            "type": "fare_classes"
+          }
+        }
+      },
+      "type": "fares"
+    },
+    {
+      "attributes": {
+        "booking_fee": null,
+        "code": "RJET",
+        "legal_name": "Student Agency k.s.",
+        "markup_fee_percentage": null,
+        "trade_name": "RegioJet"
+      },
+      "id": "RJET",
+      "relationships": {
+        "extra_types": {
+          "data": []
+        },
+        "fare_classes": {
+          "data": [
+            {
+              "id": "RJET-FARE-1",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-10",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-11",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-12",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-13",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-14",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-15",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-2",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-3",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-4",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-6",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-7",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-8",
+              "type": "fare_classes"
+            },
+            {
+              "id": "RJET-FARE-9",
+              "type": "fare_classes"
+            }
+          ]
+        },
+        "passenger_types": {
+          "data": [
+            {
+              "id": "PNOS",
+              "type": "passenger_types"
+            }
+          ]
+        }
+      },
+      "type": "marketing_carriers"
+    },
+    {
+      "attributes": {
+        "code": "RJET",
+        "legal_name": "Student Agency k.s.",
+        "trade_name": "RegioJet"
+      },
+      "id": "RJET",
+      "type": "operating_carriers"
+    },
+    {
+      "attributes": {
+        "code": "PNOS",
+        "description": "",
+        "max_age": 99,
+        "min_age": null,
+        "name": "Adult"
+      },
+      "id": "PNOS",
+      "type": "passenger_types"
+    },
+    {
+      "attributes": {
+        "code": "CZPRGATE",
+        "description": "Depending on your terminal of arrival, the bus will be in front of Terminal 1 or Terminal 2.",
+        "latitude": 50.1075325,
+        "longitude": 14.26930904,
+        "name": "Prague Airport Terminal 1/2",
+        "street_and_number": "Aviatická 2",
+        "time_zone": "Europe/Prague",
+        "zip_code": "161 00"
+      },
+      "id": "CZPRGATE",
+      "relationships": {
+        "area": {
+          "data": {
+            "id": "CZPRGPA",
+            "type": "areas"
+          }
+        },
+        "city": {
+          "data": {
+            "id": "CZPRG",
+            "type": "cities"
+          }
+        }
+      },
+      "type": "stations"
+    },
+    {
+      "attributes": {
+        "code": "CZPRGZOB",
+        "description": "The bus station is located on Křižíkova 2110/2b. There's Denni Bar Florenc and Florence Tourist Center.",
+        "latitude": 50.08958911322947,
+        "longitude": 14.44074203035995,
+        "name": "Prague Florenc Central Bus Station",
+        "street_and_number": "Křižíkova 2110/2b",
+        "time_zone": "Europe/Prague",
+        "zip_code": "186 00"
+      },
+      "id": "CZPRGZOB",
+      "relationships": {
+        "area": {
+          "data": {
+            "id": "CZPRGPB",
+            "type": "areas"
+          }
+        },
+        "city": {
+          "data": {
+            "id": "CZPRG",
+            "type": "cities"
+          }
+        }
+      },
+      "type": "stations"
+    },
+    {
+      "attributes": {
+        "code": "DEBERCBS",
+        "description": "The Berlin Central Bus Station is located close to the S-Bahn Station \"Berlin Messe Nord\" (lines S41, S42 and S46). In case of waiting times, a waiting area with 130 seats and a snack bar can help passengers stay relaxed and comfortable.",
+        "latitude": 52.507589,
+        "longitude": 13.279692,
+        "name": "Berlin Central Bus Station",
+        "street_and_number": "Masurenallee 4-6",
+        "time_zone": "Europe/Berlin",
+        "zip_code": "14057"
+      },
+      "id": "DEBERCBS",
+      "relationships": {
+        "area": {
+          "data": {
+            "id": "DEBERBE",
+            "type": "areas"
+          }
+        },
+        "city": {
+          "data": {
+            "id": "DEBER",
+            "type": "cities"
+          }
+        }
+      },
+      "type": "stations"
+    },
+    {
+      "attributes": {
+        "code": "DEBERSDE",
+        "description": "The stop is located at Südkreuz station, when exiting towards Hedwig Dohm Strasse. Several intercity buses depart from Hildegard Knef Platz.",
+        "latitude": 52.4764431,
+        "longitude": 13.36414330000002,
+        "name": "Berlin Südkreuz",
+        "street_and_number": "Hildegard-Knef-Platz",
+        "time_zone": "Europe/Berlin",
+        "zip_code": "10829"
+      },
+      "id": "DEBERSDE",
+      "relationships": {
+        "area": {
+          "data": {
+            "id": "DEBERBI",
+            "type": "areas"
+          }
+        },
+        "city": {
+          "data": {
+            "id": "DEBER",
+            "type": "cities"
+          }
+        }
+      },
+      "type": "stations"
+    },
+    {
+      "attributes": {
+        "code": "CZPRG",
+        "name": "Prague"
+      },
+      "id": "CZPRG",
+      "type": "cities"
+    },
+    {
+      "attributes": {
+        "code": "DEBER",
+        "name": "Berlin"
+      },
+      "id": "DEBER",
+      "type": "cities"
+    },
+    {
+      "attributes": {
+        "code": "CZPRGPA",
+        "name": "Prague Airport"
+      },
+      "id": "CZPRGPA",
+      "type": "areas"
+    },
+    {
+      "attributes": {
+        "code": "CZPRGPB",
+        "name": "Prague Central Bus Station"
+      },
+      "id": "CZPRGPB",
+      "type": "areas"
+    },
+    {
+      "attributes": {
+        "code": "DEBERBE",
+        "name": "Berlin Central Bus Station"
+      },
+      "id": "DEBERBE",
+      "type": "areas"
+    },
+    {
+      "attributes": {
+        "code": "DEBERBI",
+        "name": "Berlin Südkreuz Train Station"
+      },
+      "id": "DEBERBI",
+      "type": "areas"
+    },
+    {
+      "attributes": {
+        "code": "FARE-1",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Regular"
+      },
+      "id": "RJET-FARE-1",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MSYS",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-REFU",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-10",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "First Class (Train)"
+      },
+      "id": "RJET-FARE-10",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MSYS",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-SNAC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ALSE",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-LTAB",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-EPOR",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-11",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Second Class (Train)"
+      },
+      "id": "RJET-FARE-11",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MSYS",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-12",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Train couchette Business"
+      },
+      "id": "RJET-FARE-12",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MSYS",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-SNAC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ALSE",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-LTAB",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-EPOR",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-QCOM",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-BEDF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-13",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Business (excluding WestBahn)"
+      },
+      "id": "RJET-FARE-13",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MSYS",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-SNAC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ALSE",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-LTAB",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-EPOR",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-QCOM",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-14",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Relax (Bus)"
+      },
+      "id": "RJET-FARE-14",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MSYS",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-15",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Standard (Bus)"
+      },
+      "id": "RJET-FARE-15",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MSYS",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-2",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Low-Cost (Train)"
+      },
+      "id": "RJET-FARE-2",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-3",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Relax (Train)"
+      },
+      "id": "RJET-FARE-3",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MSYS",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-SNAC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ALSE",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-EPOR",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-4",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Business"
+      },
+      "id": "RJET-FARE-4",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MSYS",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-SNAC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ALSE",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-LTAB",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-EPOR",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-QCOM",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-6",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Standard Couchette (Train)"
+      },
+      "id": "RJET-FARE-6",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-BEDF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-7",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Relax Couchette (Train)"
+      },
+      "id": "RJET-FARE-7",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-SNAC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ALSE",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-LTAB",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-BEDF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-8",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Relax Couchette for Women (Train)"
+      },
+      "id": "RJET-FARE-8",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-SNAC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ALSE",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-LTAB",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-BEDF",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-WOMO",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "FARE-9",
+        "iata_category": null,
+        "journey_type": "single",
+        "name": "Business Couchette (Train)"
+      },
+      "id": "RJET-FARE-9",
+      "relationships": {
+        "fare_features": {
+          "data": [
+            {
+              "id": "RJET-WIFI",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ACON",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-MAGA",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-DRIN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PSOC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-TOIL",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-SNAC",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-AMEN",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-ALSE",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-LTAB",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-QCOM",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-PREF",
+              "type": "fare_features"
+            },
+            {
+              "id": "RJET-BEDF",
+              "type": "fare_features"
+            }
+          ]
+        }
+      },
+      "type": "fare_classes"
+    },
+    {
+      "attributes": {
+        "code": "ACON",
+        "description": "The bus has a cooling ventilation.",
+        "name": "Air Conditioning"
+      },
+      "id": "RJET-ACON",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "ALSE",
+        "description": "Leather seats can be easily adjustable.",
+        "name": "Adjustable leather seats"
+      },
+      "id": "RJET-ALSE",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "AMEN",
+        "description": "The ticket can be modified without fee until 15 minutes before the departure time.",
+        "name": "Amendable"
+      },
+      "id": "RJET-AMEN",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "BEDF",
+        "description": "Sleeping compartment or area with bed arrangements",
+        "name": "Bed"
+      },
+      "id": "RJET-BEDF",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "DRIN",
+        "description": "Drinks are available on board.",
+        "name": "Drinks"
+      },
+      "id": "RJET-DRIN",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "EPOR",
+        "description": "During your trip watch movies and the news, listen to music, read books or play games. We update our programme regularly. All you need is a laptop, tablet, cell phone, or you can buy a seat in the ASTRA coach with built-in LCD multimedia screens. You can borrow a headset free of charge from the on-board staff, so passengers do not disturb each other.",
+        "name": "Entertainment portal"
+      },
+      "id": "RJET-EPOR",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "LTAB",
+        "description": "Large table for work and entertainment.",
+        "name": "Large table"
+      },
+      "id": "RJET-LTAB",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "MAGA",
+        "description": "Magazines are available on board.",
+        "name": "Magazines"
+      },
+      "id": "RJET-MAGA",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "MSYS",
+        "description": "A media system is available on board.",
+        "name": "Media System"
+      },
+      "id": "RJET-MSYS",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "PREF",
+        "description": "The ticket can be cancelled and partially or fully refunded.",
+        "name": "Partially refundable"
+      },
+      "id": "RJET-PREF",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "PSOC",
+        "description": "Power supply is available at every seat.",
+        "name": "Power Socket"
+      },
+      "id": "RJET-PSOC",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "QCOM",
+        "description": "Passengers can reserve 1-4 seats with Business tariff. The compartment will be restricted use of loud voice, mobile phones, music etc.",
+        "name": "Quiet compartment"
+      },
+      "id": "RJET-QCOM",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "REFU",
+        "description": "The ticket can be cancelled and partially or fully refunded.",
+        "name": "Fully refundable"
+      },
+      "id": "RJET-REFU",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "SNAC",
+        "description": "Snacks are available on board and can be paid in cash in Czech crowns or Euros (on international train lines).",
+        "name": "Snacks"
+      },
+      "id": "RJET-SNAC",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "TOIL",
+        "description": "A toilet is available on board.",
+        "name": "Toilet"
+      },
+      "id": "RJET-TOIL",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "WIFI",
+        "description": "Free wifi is available on board.",
+        "name": "Wifi"
+      },
+      "id": "RJET-WIFI",
+      "type": "fare_features"
+    },
+    {
+      "attributes": {
+        "code": "WOMO",
+        "description": "Compartment or area exclusively for women",
+        "name": "Women-only"
+      },
+      "id": "RJET-WOMO",
+      "type": "fare_features"
+    }
+  ],
+  "jsonapi": {
+    "version": "1.0"
+  },
+  "meta": {
+    "currency": "EUR",
+    "locale": "en"
+  }
+}
